@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custombackground3"
+    tools:context=".AdminMain">
+
+    <Button
+        android:id="@+id/btn_adds"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="add student"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_views"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dip"
+        android:text="view student"
+        app:layout_constraintStart_toEndOf="@+id/btn_adds"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_deletes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dip"
+        android:text="delete student"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_adds" />
+
+    <Button
+        android:id="@+id/btn_edits"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dip"
+        android:text="edit student"
+        app:layout_constraintStart_toEndOf="@+id/btn_deletes"
+        app:layout_constraintTop_toBottomOf="@+id/btn_views" />
+
+    <Button
+        android:id="@+id/btn_addi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:text="add canteen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_deletes" />
+
+    <Button
+        android:id="@+id/btn_viewi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text="view canteen"
+        app:layout_constraintStart_toEndOf="@+id/btn_addi"
+        app:layout_constraintTop_toBottomOf="@+id/btn_edits" />
+
+    <Button
+        android:id="@+id/btn_deletei"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:text="detete canteen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_addi" />
+
+    <Button
+        android:id="@+id/btn_editc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:text="edit canteen"
+        app:layout_constraintStart_toEndOf="@+id/btn_deletei"
+        app:layout_constraintTop_toBottomOf="@+id/btn_viewi" />
+
+    <Button
+        android:id="@+id/btn_addb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:text="add balance"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_deletei" />
+
+    <Button
+        android:id="@+id/btn_withdrawb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:text="withdraw balance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintStart_toEndOf="@+id/btn_addb"
+        app:layout_constraintTop_toBottomOf="@+id/btn_editc" />
+</RelativeLayout>

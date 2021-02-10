@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custombg"
+    tools:context=".CanteenBalanceAdd">
+
+    <TextView
+        android:id="@+id/txt_addbal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:text="Enter Email:"
+        />
+
+    <TextView
+        android:id="@+id/txt_adddbal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dip"
+        android:text="Enter Amount"
+         />
+
+    <EditText
+        android:id="@+id/edx_addbal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/edx_adddbal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btn_addbal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/updatebutton"
+        android:text="add in canteen"
+        />
+
+    <Button
+        android:id="@+id/btn_addbal2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/addbutton"
+        android:text="add in student"
+        />
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custombg"
+    tools:context=".UpdateItem">
+
+    <TextView
+        android:id="@+id/txt_n"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="Item Name:"
+        />
+
+    <EditText
+        android:id="@+id/edx_i"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+         />
+
+    <TextView
+        android:id="@+id/txt_iii"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="New Description:"
+         />
+
+    <TextView
+        android:id="@+id/txt_iiii"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:text="New Cost:"
+         />
+
+    <EditText
+        android:id="@+id/edx_iii"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/edx_iiii"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btn_ii"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/updatebutton"
+        android:text="update"
+         />
+</RelativeLayout>

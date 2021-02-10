@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custombg"
+    tools:context=".AddStudent">
+
+    <TextView
+        android:id="@+id/txt_sname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="Enter Name:" />
+
+    <EditText
+        android:id="@+id/edx_sname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txt_sid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Enter Id:"
+         />
+
+    <EditText
+        android:id="@+id/edx_sid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:inputType="textPersonName"
+       />
+
+    <TextView
+        android:id="@+id/txt_semail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:text="Email:"
+        />
+
+    <EditText
+        android:id="@+id/edx_semail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/txt_spassword"
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dip"
+        android:text="Password:"
+        />
+
+    <EditText
+        android:id="@+id/edx_spassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:inputType="textPersonName"
+       />
+
+    <TextView
+        android:id="@+id/txt_sbalance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="305dip"
+        android:text="Balance:"
+        />
+
+    <EditText
+        android:id="@+id/edx_sbalance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btn_sadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/addbutton"
+        android:text="Add" />
+</RelativeLayout>

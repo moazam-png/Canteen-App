@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_logina"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="admin"
+        android:background="@drawable/custombutton2"
+       />
+
+    <Button
+        android:id="@+id/btn_loginc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/custombutton3"
+
+        android:text="canteen"
+        />
+
+    <Button
+        android:id="@+id/btn_logins"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/custombutton4"
+        android:text="student"
+        />
+
+
+
+</RelativeLayout>

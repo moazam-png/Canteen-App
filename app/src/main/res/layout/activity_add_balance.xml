@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custombg"
+    tools:context=".AddBalance">
+
+    <TextView
+        android:id="@+id/txt_balance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dip"
+        android:text="Enter Amount"
+        />
+
+    <EditText
+        android:id="@+id/edx_balance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btn_balance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/custombutton2"
+        android:text="Add in Student" />
+
+    <Button
+        android:id="@+id/btn_balance2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/custombutton"
+        android:text="Add in canteen" />
+
+    <TextView
+        android:id="@+id/txt_balancee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:text="Enter Email:"
+        />
+
+    <EditText
+        android:id="@+id/edx_balancee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:inputType="textPersonName"
+        />
+</RelativeLayout>

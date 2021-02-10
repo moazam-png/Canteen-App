@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custombg"
+    tools:context=".EditStudent">
+
+    <EditText
+        android:id="@+id/edx_updatepp2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:inputType="textPersonName"
+       />
+
+    <TextView
+        android:id="@+id/txt_updatepp2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:text="Enter New Id:"
+        />
+    <TextView
+        android:id="@+id/txt_updates"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="Enter Email:" />
+
+    <EditText
+        android:id="@+id/edx_updates"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+         />
+
+    <Button
+        android:id="@+id/btn_updatep"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/updatebutton"
+        android:inputType="textPersonName"
+        android:text="Update" />
+
+    <TextView
+        android:id="@+id/txt_updatepp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Enter New Name:"
+        />
+
+    <EditText
+        android:id="@+id/edx_updatepp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:inputType="textPersonName"
+        />
+</RelativeLayout>
